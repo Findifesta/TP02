@@ -103,7 +103,7 @@ void buscarElemento()
 	int busca, x = 0;
 	cout << "Qual elemento deseja procurar na lista?" << endl;
 	cin >> busca;
-	for (int n = 0; n < MAX; n++) {
+	for (int n = 0; n < nElementos; n++) {
 		if (busca == lista[n]) {
 			cout << "O elemento esta na posicao " << n << " da lista" << endl;
 			x++;
